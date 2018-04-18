@@ -1,0 +1,18 @@
+{
+  "name": "ffmpegserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "nodemon": "^1.17.3",
+    "request": "^2.85.0"
+  }
+}
