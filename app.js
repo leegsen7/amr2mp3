@@ -2,11 +2,11 @@ const ffmpeg = require('fluent-ffmpeg')
 const express = require('express')
 const fs = require('fs')
 const request = require('request')
+const config = require('./config')
 
 const app = express()
-const port = 4000
-const host = 'http://10.0.0.63'
 const amrIdReg = /\/(\d+).amr$/
+const {host, port} = config
 
 app.use(express.static(__dirname + '/'))
 
