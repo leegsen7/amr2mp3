@@ -8,4 +8,5 @@
 4. 运行，`npm run dev`
 
 ## 使用
-访问`${host}:${port}/amr2mp3?url=http://test.com/12345.amr`即可看到效果
+访问`${host}:${port}/amr2mp3?url=http://test.com/12345.amr`即可看到效果<br>
+url参数需要是一个可访问且后缀为amr的地址
